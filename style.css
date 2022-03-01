@@ -1,0 +1,30 @@
+body{
+    margin:0
+}
+header{
+       background: black;
+       height: 50px;
+       text-align: center;
+       padding-top: 2%;
+     }
+a{
+    margin: 10px;
+    padding-top: 15px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 90px;
+}
+
+.logo{
+    color: white;
+    text-transform: capitalize;
+    /* text-decoration:blink; */
+}
+header{
+    display:flex;
+    justify-content: space-between;
+}
+nav a:hover{
+    background: green;
+}
